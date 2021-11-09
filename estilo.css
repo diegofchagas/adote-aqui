@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:ital,wght@1,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.header{
+   display: flex;
+   justify-content: space-around ;
+   padding: 15px;
+   align-items: flex-start;
+   background-color: #2d425a;
+   color: white;
+   
+  
+   
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    right: 10px;
+  border-radius: 10px;
+
+}
+
+h1:hover{
+    font-size: 35px;
+    color: #b8cde6;
+}
+
+.adote{
+    width: 100%;
+    /*background-color: rgb(158, 66, 66);*/
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+    
+    
+}
+.menu .item{
+    margin-left: 25px;
+    
+}
+
+.item:hover{
+    color: #b8cde6;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+h2{
+    text-align: center;
+    color: #2d425a;
+    padding-top: 10px;
+}
+section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 940px;
+   margin: auto;
+}
+
+ .painel1 li{
+  display: inline-block;
+   border-radius: 50px;
+   padding-top: 10px;
+   padding-left: 0px;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.painel1 li img{
+    border-radius: 100%;
+}
+
+
+.foto-animais{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+}
+
+.painel1 li:hover{
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #b8cde6;
+    padding-right: 5px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #2d425a;
+   padding: 20px;
+   color: white;
+   font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 700px) {
+
+    h1{
+        display: none;
+    }
+
+
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .painel1 {
+
+        display: flex;
+        flex-direction: column;
+        margin-right: 750px;
+    }
+
+    .painel2{
+        display: none;
+    }
+
+}
