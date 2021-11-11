@@ -19,8 +19,6 @@
    background-color: #2d425a;
    color: white;
    
-  
-   
 }
 
 img{
@@ -98,13 +96,17 @@ section{
     margin-left: 25px;
 }
 
+
 .painel1 li:hover{
     font-size: 50px;
     cursor: pointer;
     border-radius: 100%;
     background-color: #b8cde6;
     padding-right: 5px;
+    transform: scale(1);
+   
 }
+
 
 
 footer{
