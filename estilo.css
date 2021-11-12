@@ -118,8 +118,15 @@ footer{
 }
 
 
+/*painel mobile*/
+@media (max-width: 760px) {
 
-@media (max-width: 700px) {
+ 
+
+
+   .foto-logo{
+        display: none;
+    }
 
     h1{
         display: none;
@@ -127,10 +134,17 @@ footer{
 
 
 
-    .menu{
+    .menu {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        align-items: initial;
+        width: 85vw;
+       
+    }
+
+    h2{
+        text-align: left;
+        width: 50vh;
        
     }
 
@@ -149,6 +163,10 @@ footer{
 
     .painel2{
         display: none;
+    }
+
+    footer{
+        width: 85vw;
     }
 
 }
